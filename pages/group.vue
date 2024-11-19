@@ -13,7 +13,9 @@
 </template>
 
 <script lang="ts" setup>
-
+definePageMeta({
+  layout: 'components'
+})
 </script>
 
 <style>

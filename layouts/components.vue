@@ -1,8 +1,6 @@
 <template>
   <div>
-    <CommonHeader/>
     <slot />
-    <CommonFooter/>
   </div>
 </template>
 
@@ -10,5 +8,6 @@
 
 </script>
 
-<style scoped>
+<style>
+
 </style>

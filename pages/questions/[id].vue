@@ -24,6 +24,10 @@ const PostComponent = defineAsyncComponent(async () => {
   router.push('/') 
 
 })
+
+definePageMeta({
+  layout: 'components'
+})
 </script>
 
 <style scoped>
